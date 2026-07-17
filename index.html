@@ -1167,6 +1167,88 @@
 
             }
 
+            .movie-chapters{
+
+    margin-bottom:2rem;
+
+    padding:1.5rem;
+
+    background:rgba(255,255,255,.03);
+
+    border-left:4px solid var(--gold);
+
+    border-radius:6px;
+
+}
+
+.movie-chapters h4{
+
+    color:var(--gold);
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    margin-bottom:1rem;
+
+    font-size:1rem;
+
+}
+
+.chapter-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.chapter-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:12px 16px;
+
+    background:rgba(255,255,255,.04);
+
+    border-radius:6px;
+
+    transition:.3s;
+
+}
+
+.chapter-item:hover{
+
+    background:rgba(212,175,55,.08);
+
+    transform:translateX(6px);
+
+}
+
+.chapter-number{
+
+    color:var(--gold);
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+}
+
+.chapter-title{
+
+    color:#fff;
+
+    text-align:right;
+
+}
+
             .support-card {
 
                 padding: 20px;
@@ -1376,6 +1458,35 @@
                     </p>
 
                 </div>
+                <div class="movie-chapters">
+
+    <h4>Movie Chapters</h4>
+
+    <div class="chapter-list">
+
+        <div class="chapter-item">
+            <span class="chapter-number">Chapter 1</span>
+            <span class="chapter-title">Destiny at Deshnok</span>
+        </div>
+
+        <div class="chapter-item">
+            <span class="chapter-number">Chapter 2</span>
+            <span class="chapter-title">The Promised Land</span>
+        </div>
+
+        <div class="chapter-item">
+            <span class="chapter-number">Chapter 3</span>
+            <span class="chapter-title">The Kingdom Forged in Conflict</span>
+        </div>
+
+        <div class="chapter-item">
+            <span class="chapter-number">Chapter 4</span>
+            <span class="chapter-title">The Battle of Kodamdesar</span>
+        </div>
+
+    </div>
+
+</div>
 
                 <button class="btn btn-primary" onclick="openAccess()">Request Early Access</button>
             </div>
