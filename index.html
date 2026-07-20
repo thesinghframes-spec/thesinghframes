@@ -1186,6 +1186,38 @@
     letter-spacing:1px;
 
 }
+            /* ===== Release Date ===== */
+
+.release-date {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin: 1.2rem 0 2rem;
+    padding: 14px 22px;
+    border: 1px solid rgba(212,175,55,.35);
+    background: linear-gradient(135deg,
+        rgba(212,175,55,.12),
+        rgba(255,255,255,.03));
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+}
+
+.release-date .label{
+    color:#a9a9a9;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-size:.72rem;
+    font-weight:600;
+}
+
+.release-date .date{
+    color:var(--gold);
+    font-family:'Playfair Display',serif;
+    font-size:1.55rem;
+    font-weight:900;
+    letter-spacing:1.5px;
+    text-shadow:0 0 18px rgba(212,175,55,.18);
+}
 
 .chapter-card{
 
@@ -1478,6 +1510,10 @@
             <div class="film-info">
                 <div class="film-tag">Coming Soon</div>
                 <h3 id="filmTitle">Kodamdesar 2: The Desert Throne</h3>
+                <div class="release-date">
+    <span class="label">Releasing</span>
+    <span class="date">July 26, 2026</span>
+</div>
                 <p id="filmDesc"></p>
 
                 <div class="film-meta-row">
